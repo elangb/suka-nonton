@@ -59,3 +59,52 @@
   font-size: 1.2em;
   text-decoration: underline;
 }
+
+@media screen and (min-width: 412px) {
+  .Movie-container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .Movie-title{
+    height: 50px;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  
+  .Movie-wrapper{
+    width: 250px;
+    background-color: antiquewhite;
+    color: black;
+  }
+  
+  .Movie-search{
+    height: 15px;
+    font-size: 24px;
+    margin-bottom: 40px;
+    padding: 16px;
+    font-weight: bold;
+    width: 190px;
+    align-items: center;
+  }
+  .Movie-date{
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  .Movie-rate{
+    color: red;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: underline;
+  }
+
+  .Movie-image{
+    width: 100%;
+  }
+  
+}
