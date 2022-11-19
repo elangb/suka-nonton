@@ -71,8 +71,9 @@
   }
   .Movie-title{
     height: 50px;
-    margin-top: 5px;
+    margin-top: 10px;
     font-weight: bold;
+    font-size: 15px;
   }
   
   .Movie-wrapper{
@@ -107,4 +108,65 @@
     width: 100%;
   }
   
+}
+
+@media screen and (min-width: 1024px) {
+  .Movie-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .Movie-title{
+    height: 80px;
+    margin-top: 10px;
+    font-weight: bold;
+    position: relative;
+    font-size: 24px;
+    margin-bottom: -10px;
+  }
+  
+  .Movie-wrapper{
+    width: 400px;
+    background-color: blanchedalmond;
+    color: black;
+  }
+  
+  .Movie-search{
+    height: 20px;
+    font-size: 24px;
+    margin-bottom: 40px;
+    padding: 16px;
+    font-weight: bold;
+    width: 350px;
+    align-items: center;
+  }
+  .Movie-date{
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  .Movie-rate{
+    color: red;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: underline;
+  }
+
+  .Movie-image{
+    width: 100%;
+  } 
+}
+
+@media screen and (min-width: 1440px) {
+  .Movie-container{
+    gap: 40px;
+  }
+
+  .Movie-search{
+    width:500px;
+  }
 }
